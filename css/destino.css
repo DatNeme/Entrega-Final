@@ -280,6 +280,11 @@ a {
   100% {
     left: -300%; } }
 
+.divSlide {
+  display: flex;
+  justify-content: center;
+  margin: 10px; }
+
 /*****  GRID CONTAINERS *****/
 .grid-container1 {
   display: grid;
