@@ -256,7 +256,7 @@ a {
   overflow: hidden; }
   #slider figure {
     position: relative;
-    width: 400%;
+    width: 100%;
     margin: 0;
     left: 0;
     animation: 20s slider infinite; }
