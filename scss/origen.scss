@@ -274,6 +274,49 @@ a {
 }
 
 
+/*****  SLIDER INDEX *****/
+
+#slider {
+    overflow: hidden;
+    figure{
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 20s slider infinite;
+        img{
+            width: 20%;
+            float: left;
+        }
+    }
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    25%{
+        left: 0;
+    }
+    30%{
+        left: 100%;
+    }
+    60%{
+        left: 100%;
+    }
+    65%{
+        left: 200%;
+    }
+    95%{
+        left: 200%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+
+
 /*****  GRID CONTAINERS *****/
 
 
