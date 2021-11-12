@@ -283,7 +283,8 @@ a {
 .divSlide {
   display: flex;
   justify-content: center;
-  margin: 10px; }
+  margin: 10px;
+  width: max-content 750px; }
 
 /*****  GRID CONTAINERS *****/
 .grid-container1 {
