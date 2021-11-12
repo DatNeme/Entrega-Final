@@ -256,12 +256,12 @@ a {
   overflow: hidden; }
   #slider figure {
     position: relative;
-    width: 500%;
+    width: 400%;
     margin: 0;
     left: 0;
     animation: 20s slider infinite; }
     #slider figure img {
-      width: 20%;
+      width: 25%;
       float: left; }
 
 @keyframes slider {
@@ -270,47 +270,58 @@ a {
   25% {
     left: 0; }
   30% {
-    left: 100%; }
+    left: -100%; }
   60% {
-    left: 100%; }
+    left: -100%; }
   65% {
-    left: 200%; }
+    left: -200%; }
   95% {
-    left: 200%; }
+    left: -200%; }
   100% {
-    left: 300%; } }
+    left: -300%; } }
 
 /*****  GRID CONTAINERS *****/
 .grid-container1 {
   display: grid;
   gap: 10px;
-  grid-template-areas: "header" "main" "footer";
+  grid-template-areas: "header"
+ "main"
+ "footer";
   grid-template-rows: 10vh 80vh 10vh; }
 
 .grid-container2 {
   display: grid;
   gap: 10px;
-  grid-template-areas: "header header" "main side" "footer footer";
+  grid-template-areas: "header header"
+ "main side"
+ "footer footer";
   grid-template-rows: 10vh 80vh 10vh;
   grid-template-columns: 1fr 1fr; }
 
 .grid-container3 {
   display: grid;
   gap: 10px;
-  grid-template-areas: "header header" "side main" "footer footer";
+  grid-template-areas: "header header"
+ "side main"
+ "footer footer";
   grid-template-rows: 10vh 80vh 10vh;
   grid-template-columns: 80px auto; }
 
 .grid-container4 {
   display: grid;
   gap: 10px;
-  grid-template-areas: "header" "logo" "main" "footer";
+  grid-template-areas: "header"
+ "logo"
+ "main"
+ "footer";
   grid-template-rows: 5vh 5vh 80vh 10vh; }
 
 .grid-container5 {
   display: grid;
   gap: 10px;
-  grid-template-areas: "header" "main" "footer";
+  grid-template-areas: "header"
+ "main"
+ "footer";
   grid-template-rows: 10vh auto 10vh; }
 
 .header {
@@ -336,7 +347,10 @@ a {
   .grid-container2 {
     display: grid;
     gap: 10px;
-    grid-template-areas: "header header" "main main" "side side" "footer footer";
+    grid-template-areas: "header header"
+ "main main"
+ "side side"
+ "footer footer";
     grid-template-rows: 100px 1fr 1fr 100px;
     grid-template-columns: 1fr 1fr; } }
 
@@ -345,7 +359,10 @@ a {
   .grid-container2 {
     display: grid;
     gap: 10px;
-    grid-template-areas: "header header" "main main" "side side" "footer footer";
+    grid-template-areas: "header header"
+ "main main"
+ "side side"
+ "footer footer";
     grid-template-rows: 100px 1fr 1fr 100px;
     grid-template-columns: 1fr 1fr; }
   .textoDer {
@@ -359,5 +376,7 @@ a {
   .grid-container1 {
     display: grid;
     gap: 10px;
-    grid-template-areas: "header" "main" "footer";
+    grid-template-areas: "header"
+ "main"
+ "footer";
     grid-template-rows: 100px auto auto; } }
