@@ -112,14 +112,6 @@ a {
     color: rgb(255, 255, 255);
     transition-duration: 1s;}
 
-.boton1{
-    display: inline-block;
-    margin: 0 25vh 0 40vh;}
-
-.boton2{
-    display: inline-block;
-    margin: 0 25vh 0 40vh;}
-
 /*****  FORMULARIO LOGIN  *****/
 
 .wrapper {
@@ -375,7 +367,6 @@ a {
     "logo"
     "main"
     "footer";
-    grid-template-rows: 5vh 5vh 80vh 10vh;
 }
 
 .grid-container5{
@@ -456,7 +447,7 @@ a {
         "header header"
         "side main"
         "footer footer";
-        grid-template-rows: 10vh 80vh 10vh;
+        grid-template-rows: 15vh auto auto;
         grid-template-columns: 20vh auto;}
         
     
