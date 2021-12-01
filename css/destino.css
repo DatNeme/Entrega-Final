@@ -292,12 +292,18 @@ a {
 .alter:hover {
   transform: scale(1.04); }
 
+figcaption {
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  font-family: 'Vidaloka', serif; }
+
 /*****  GRID CONTAINERS *****/
 .grid-container1 {
   display: grid;
   gap: 10px;
   grid-template-areas: "header" "main" "footer";
-  grid-template-rows: 10vh 80vh 10vh; }
+  grid-template-rows: 10vh 80vh auto; }
 
 .grid-container2 {
   display: grid;
@@ -310,7 +316,7 @@ a {
   display: grid;
   gap: 10px;
   grid-template-areas: "header header" "side main" "footer footer";
-  grid-template-rows: 10vh 80vh 10vh;
+  grid-template-rows: 10vh auto 10vh;
   grid-template-columns: 15vh auto; }
 
 .grid-container4 {
