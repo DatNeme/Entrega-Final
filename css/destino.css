@@ -312,7 +312,7 @@ figcaption {
   display: grid;
   gap: 10px;
   grid-template-areas: "header header" "main side" "footer footer";
-  grid-template-rows: 10vh 80vh 10vh;
+  grid-template-rows: auto 80vh 10vh;
   grid-template-columns: 1fr 1fr; }
 
 .grid-container3 {
