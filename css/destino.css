@@ -25,23 +25,23 @@ header {
 /*****  ESTILOS DE TEXTO  *****/
 h1 {
   text-align: center;
-  font-family: 'Vidaloka', serif;
+  font-family: 'Quando', serif;
   color: #fff; }
 
 h2 {
   text-align: center;
-  font-family: 'Vidaloka', serif;
+  font-family: 'Quando', serif;
   color: #fff; }
 
 h3 {
   color: #fff;
-  font-family: 'Alice', serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 500;
   text-align: center; }
 
 .textoIzq {
   text-align: center;
-  font-family: 'Vidaloka', serif;
+  font-family: 'Quando', serif;
   display: inline-block;
   font-size: 2.5rem;
   font-weight: 500;
@@ -49,34 +49,34 @@ h3 {
 
 .textoDer {
   text-align: center;
-  font-family: 'Vidaloka', serif;
+  font-family: 'Quando', serif;
   font-size: 2rem;
   font-weight: 500;
   display: inline-block;
-  margin: 165px 0px 60px 265px; }
+  margin: 19vh 12vw 8vh 15vw; }
 
 .textoAzul {
   color: #fff;
-  font-family: 'Alice', serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 500;
   font-size: 1rem;
   text-align: left; }
 
-#lorem {
-  color: #fff;
-  text-align: center;
-  width: 100%;
-  font-family: 'Alice', serif;
-  font-weight: 500;
-  font-size: 18px;
+.contenedor {
+  width: 70vw;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center; }
+  margin-top: 3vh; }
+
+.lorem {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center; }
 
 a {
   font-size: 18px;
-  font-family: 'Alice', serif;
+  font-family: 'Nunito', sans-serif;
   text-decoration: none;
   color: #fff;
   font-weight: 500; }
@@ -87,9 +87,12 @@ a {
   margin: 5px 5px; }
 
 #corazonCentro {
+  display: inline-block;
+  margin: 2vh 47vw 2vh; }
+
+.corazon {
   width: 100%;
-  display: flex;
-  justify-content: center; }
+  height: 15vh; }
 
 /*****  BOTONES INDEX  *****/
 .botones {
@@ -296,14 +299,14 @@ figcaption {
   color: #fff;
   font-weight: 500;
   text-align: center;
-  font-family: 'Vidaloka', serif; }
+  font-family: 'Nunito', sans-serif; }
 
 /*****  GRID CONTAINERS *****/
 .grid-container1 {
   display: grid;
   gap: 10px;
   grid-template-areas: "header" "main" "footer";
-  grid-template-rows: 10vh 80vh auto; }
+  grid-template-rows: 10vh 75vh auto; }
 
 .grid-container2 {
   display: grid;
@@ -355,7 +358,14 @@ figcaption {
     gap: 10px;
     grid-template-areas: "header header" "main main" "side side" "footer footer";
     grid-template-rows: 100px 1fr 1fr 100px;
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr; }
+  .textoDer {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+    margin: 15vh 10vw 15vh 18vw; } }
 
 /* Smartphone */
 @media (max-width: 599px) {
@@ -378,9 +388,8 @@ figcaption {
     grid-template-columns: 20vh auto; }
   .textoDer {
     text-align: center;
-    font-family: 'Vidaloka', serif;
-    font-size: 24px;
+    font-size: 2rem;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     display: inline-block;
     margin: 185px 90px 60px 100px; } }

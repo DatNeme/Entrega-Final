@@ -27,23 +27,23 @@ $blanco: #fff;
 
 h1 {
     text-align: center;
-    font-family: 'Vidaloka', serif;
+    font-family: 'Quando', serif;
     color: $blanco;}
 
 h2{
     text-align: center;
-    font-family: 'Vidaloka', serif;
+    font-family: 'Quando', serif;
     color: $blanco;}
 
 h3{
     color: $blanco; 
-    font-family: 'Alice', serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 500; 
     text-align: center;}
 
 .textoIzq{
     text-align: center;
-    font-family: 'Vidaloka', serif;
+    font-family: 'Quando', serif;
     display: inline-block;
     font-size: 2.5rem;
     font-weight: 500;
@@ -51,34 +51,32 @@ h3{
     
 .textoDer{
     text-align: center;
-    font-family: 'Vidaloka', serif;
+    font-family: 'Quando', serif;
     font-size: 2rem;
     font-weight: 500;
     display: inline-block;
-    margin: 165px 0px 60px 265px;}
+    margin: 19vh 12vw 8vh 15vw;}
 
 .textoAzul{
     color: $blanco; 
-    font-family: 'Alice', serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 500;
     font-size: 1rem;
     text-align: left;}
 
-#lorem {
+.contenedor{width: 70vw; display: flex; margin-top: 3vh; }
+
+.lorem{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
     color: $blanco;
     text-align: center;
-    width: 100%;
-    font-family: 'Alice', serif;
-    font-weight: 500;
-    font-size: 18px;
-    display:flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;}
+    }
 
 a {
     font-size: 18px;
-    font-family: 'Alice', serif;
+    font-family: 'Nunito', sans-serif;
     text-decoration: none;
     color: $blanco; 
     font-weight: 500;}
@@ -90,8 +88,9 @@ a {
 
 .bordesLogo {border-radius: 3%; margin: 5px 5px;}
 
-#corazonCentro {width: 100%; display:flex; justify-content: center;}
+#corazonCentro {display:inline-block; margin: 2vh 47vw 2vh;}
 
+.corazon{width:100%; height: 15vh;}
 
 /*****  BOTONES INDEX  *****/
 
@@ -324,7 +323,7 @@ a {
   
 .alter:hover{transform: scale(1.04);}
 
-figcaption{color: $blanco; font-weight: 500; text-align: center; font-family: 'Vidaloka', serif;}
+figcaption{color: $blanco; font-weight: 500; text-align: center; font-family: 'Nunito', sans-serif;}
 
 
 
@@ -338,7 +337,7 @@ figcaption{color: $blanco; font-weight: 500; text-align: center; font-family: 'V
     "header"
     "main"
     "footer";
-    grid-template-rows: 10vh 80vh auto;
+    grid-template-rows: 10vh 75vh auto;
 }
 
 .grid-container2{
@@ -417,6 +416,14 @@ figcaption{color: $blanco; font-weight: 500; text-align: center; font-family: 'V
         "footer footer";
         grid-template-rows: 100px 1fr 1fr 100px;
         grid-template-columns: 1fr 1fr;}
+
+        .textoDer{
+            text-align: center;
+            font-size: 2rem;
+            color: rgb(255, 255, 255);
+            font-weight: 500;
+            display: inline-block;
+            margin: 15vh 10vw 15vh 18vw;}    
 }
 
 
@@ -457,10 +464,9 @@ figcaption{color: $blanco; font-weight: 500; text-align: center; font-family: 'V
     
     .textoDer{
         text-align: center;
-        font-family: 'Vidaloka', serif;
-        font-size: 24px;
+        font-size: 2rem;
         color: rgb(255, 255, 255);
-        font-weight: 600;
+        font-weight: 500;
         display: inline-block;
         margin: 185px 90px 60px 100px;}
     
